@@ -1,4 +1,105 @@
-.profilePic {
-    width: 100%;
-    height: auto;
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #343a40;
+    --heading-font: "Source Sans Pro", Helvetica, sans-serif;
+    --text-font: sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
   }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+header {
+    background-image: linear-gradient(to bottom right, var(--primary-color), #6c757d);
+}
+
+h1 {
+    font-size: 16pt;
+    color: #f8f9fa;
+    font-family: var(--heading-font);
+    justify-content: center;
+}
+
+strong {
+    font-weight: 600;
+    color: #f8f9fa;
+    line-height: 1.75em;
+    font-size: 17pt;
+    justify-content: center;
+}
+
+.profilePic {
+    width: 150%;
+    height: auto;
+}
+
+.contact a {
+    font-size: 50pt;
+    color: #f8f9fa;
+}
+
+.contact a:hover {
+    filter: opacity(70%);
+}
+
+.aboutMe {
+    border-bottom: 2px lightgray solid;
+}
+
+.aboutMe h2 {
+    color: var(--secondary-color);
+}
+
+.aboutMe p {
+    font-family: var(--text-font);
+    font-size: 18px;
+}
+
+.aboutMe a {
+    color: var(--primary-color);
+    font-family: var(--text-font);
+    text-decoration: none;
+}
+
+.aboutMe a button {
+    color: var(--primary-color);
+    font-family: var(--text-font);
+    border: 2px solid;
+}
+
+.projects {
+    border-bottom: 2px lightgray solid;
+    font-family: var(--text-font);
+    color: var(--secondary-color);
+}
+
+.card-title {
+    color: var(--primary-color);
+
+}
+
+.card-text {
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+.card-subtext {
+    
+    font-style: normal;
+    font-size: 14px;
+}
+
+.card a:hover {
+    filter: grayscale(55%);
+}
+
+footer * {
+    font-size: 20pt;
+    color: var(--primary-color);
+    font-family: var(--text-font);
+}

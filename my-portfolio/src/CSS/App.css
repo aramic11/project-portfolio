@@ -1,45 +1,152 @@
+:root {
+  --Vspacing: 30px;
+  --Hspacing: 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+  }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+/* Profile section */
 .profile {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding-top: 60px;
-  text-align: center;
+  padding-top: 50px;
+
 }
 
+.profile h1 {
+  padding-top: 30px;
+  text-align: end;
+  line-height: 1;
+  justify-content: center;
+
+}
+
+.profile .profilePic {
+  width: 90%;
+  height: auto;
+}
+
+/* Contact section */
 .contact {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  font-size: 80px;
 }
 
 .contact a {
   padding-left: 10px;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-size: 4em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+/* Header section */
+header {
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  padding-right: var(--Hspacing);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Aside section */
+aside {
+  width: 70%;
+  position: absolute;
+  right: 0px;
+  padding-left: var(--Hspacing);
+  padding-right: var(--Hspacing);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* About Me section */
+.aboutMe {
+  padding-top: 75px;
+  padding-bottom: var(--Vspacing);
+}
+
+.aboutMe p {
+  margin-top: var(--Vspacing);
+  text-align: left;
+}
+
+/* Projects section */
+.projects {
+  margin-top: var(--Vspacing);
+  padding-bottom: var(--Vspacing);
+}
+
+.projects h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  border: 0px;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+/* Footer section */
+footer {
+  margin-top: var(--Vspacing);
+  text-align: center;
+}
+
+footer * {
+  font-size: 16pt;
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: auto;
+    position: inherit;
+    padding-left: var(--Hspacing);
+    padding-bottom: var(--Vspacing);
   }
-  to {
-    transform: rotate(360deg);
+
+  .profile {
+    align-items: center;
+    padding-top: 60px;
+  }
+
+  .profile h1 {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .profile .profilePic {
+    max-width: 100px;
+    max-height: 100px;
+    filter: grayscale(55%);
+  }
+
+  .contact {
+    justify-content: center;
+  }
+
+  aside {
+    width: 100%;
+    position: inherit;
+  }
+
+  .aboutMe {
+    padding-top: var(--Vspacing);
+    text-align: center;
+  }
+
+  .aboutMe p {
+    text-align: left;
   }
 }
