@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf33b7cb.css",
+    "main.js": "/static/js/main.478ae685.js",
+    "static/js/787.c53aefa4.chunk.js": "/static/js/787.c53aefa4.chunk.js",
+    "static/media/avatar.jpg": "/static/media/avatar.4a1a0366d9206bb43473.jpg",
+    "static/media/portfolio.png": "/static/media/portfolio.df12efb0152a472d9525.png",
+    "static/media/fitnessZone.png": "/static/media/fitnessZone.4ed797c4230faad2538c.png",
+    "static/media/topTunes.png": "/static/media/topTunes.1240de0f2499069e3964.png",
+    "static/media/Resume.pdf": "/static/media/Resume.fefc1dbd5fc492c0daa2.pdf",
+    "static/media/shopifyStore.png": "/static/media/shopifyStore.da5903fa5dbb1c023663.png",
+    "static/media/techBlog.png": "/static/media/techBlog.8837984700be19b625a2.png",
+    "static/media/codeQuiz.png": "/static/media/codeQuiz.4f624c1eafe55c751aa0.png",
+    "index.html": "/index.html",
+    "main.cf33b7cb.css.map": "/static/css/main.cf33b7cb.css.map",
+    "main.478ae685.js.map": "/static/js/main.478ae685.js.map",
+    "787.c53aefa4.chunk.js.map": "/static/js/787.c53aefa4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf33b7cb.css",
+    "static/js/main.478ae685.js"
+  ]
+}
